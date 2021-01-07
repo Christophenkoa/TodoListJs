@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TODO List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- my css file link -->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    <!-- Some font imports -->
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <!-- Date picker imports -->
+    <link rel="stylesheet" href="datetimepicker/jquery.datetimepicker.min.css"/>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="datetimepicker/jquery.datetimepicker.full.js"></script>
+</head>
+
+<body>
+
+    <h1><span class="title">Todo</span>List</h1>
+    <div class="inputDiv">
+         <input id="datetime" class="input" type="text" placeholder="start time">
+         <input id="datetime2" class="input" type="text" placeholder="end time">
+         <input type="text" class="input" placeholder="Title">
+         <input type="text" class="input" placeholder="Location">
+    	   <button class="add"><i class="fas fa-plus"></i></button>
+    </div>
+
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <td>Start Time</td>
+            <td>End Time</td>
+            <td>Title</td>
+            <td>Location</td>
+          </tr>
+        </thead>
+        <tbody>
+
+          <!-- Sample Data. You should load your data here -->
+          <tr>
+            <td>2021/01/22 11:00</td>
+            <td>2021/01/07 11:10</td>
+            <td>My first meeting</td>
+            <td>Molyko</td>
+            <td><button class="edit"><i class="fas fa-edit"></i></button></td>
+            <td><button class="remove"><i class="fas fa-trash"></i></button></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    <!-- my javascript file link-->
+    <script src='main.js'></script>
+</body>
+</html>
