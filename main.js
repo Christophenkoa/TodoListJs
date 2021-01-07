@@ -3,6 +3,5 @@ jQuery('#datetime').datetimepicker({
 });
 
 jQuery('#datetime2').datetimepicker({
-  step: 5,
-  datepicker:false
+  step: 5
 });
